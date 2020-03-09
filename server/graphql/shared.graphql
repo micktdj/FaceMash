@@ -1,0 +1,25 @@
+input RegisterInput {
+  login: String!,
+  pwd: String!,
+  confPwd: String!,
+  firstName: String!,
+  lastName: String!
+}
+
+type User {
+  id: ID!
+  login: String!
+  firstName: String!
+  lastName: String!
+}
+
+type Player {
+  id: ID!
+  name: String!
+  img: String!
+  misc: String!
+  elo: Float!
+  k: Int!
+  matchs: Int!
+  nextPossibleMatch: Int!
+}

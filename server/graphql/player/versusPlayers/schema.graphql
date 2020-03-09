@@ -1,0 +1,3 @@
+type Mutation{
+    versusPlayers(idPlayer1: ID!, idPlayer2: ID!, player1Win: Boolean!): [Player!]
+}

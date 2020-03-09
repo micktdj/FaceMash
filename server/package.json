@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --detectOpenHandles"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express-session": "^1.17.0",
+    "graphql": "^14.6.0",
+    "graphql-request": "^1.8.2",
+    "graphql-yoga": "^1.18.3",
+    "jest": "^25.1.0",
+    "merge-graphql-schemas": "^1.7.6",
+    "mysql": "^2.18.1",
+    "standard": "^14.3.1",
+    "uuidv4": "^6.0.5",
+    "yup": "^0.28.1"
+  }
+}
