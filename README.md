@@ -1,5 +1,4 @@
 # Test Project - Tordjman Mickael
-# Take a look at https://facemash.netlify.com/
 
 FaceMash clone using the [Elo Rating System](https://en.wikipedia.org/wiki/Elo_rating_system).
 ## Back-End
